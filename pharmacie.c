@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -207,4 +208,6 @@ void verification_stock() {
 }
 
 
+=======
+>>>>>>> f56135b11b1caa95f49a5faafca0ce56c2312c3c
 

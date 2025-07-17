@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+<<<<<<< HEAD
 #include <stdio.h>
 #include <windows.h>
 #include "pharmacie.h"
@@ -65,3 +66,11 @@ int main() {
 }
 
 
+=======
+
+int main()
+{
+    printf("Hello world!\n");
+    return 0;
+}
+>>>>>>> f56135b11b1caa95f49a5faafca0ce56c2312c3c
