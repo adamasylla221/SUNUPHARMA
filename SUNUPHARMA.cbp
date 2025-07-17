@@ -31,6 +31,7 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+<<<<<<< HEAD
 		<Unit filename="bloc_debloc.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -47,6 +48,18 @@
 		<Unit filename="utilisateur.c">
 			<Option compilerVar="CC" />
 		</Unit>
+=======
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+<<<<<<< HEAD
+=======
+		<Unit filename="pharmacie.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pharmacie.h" />
+>>>>>>> 8085a31d8f808adaf71d70fcb524ef10c8a6895b
+>>>>>>> f4499a739c63b652d77124ccfcbc509a52472b2e
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
