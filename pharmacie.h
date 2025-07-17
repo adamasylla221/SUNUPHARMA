@@ -33,7 +33,12 @@ typedef struct{
 
  typedef struct {
     char numero[15];
+<<<<<<< HEAD
     char loginPharmacien[6];
+=======
+    char date[10];
+    char loginPharmacien[10];
+>>>>>>> 8085a31d8f808adaf71d70fcb524ef10c8a6895b
     Produit produits[100];
     int quantites[100];
     int nbProduits;
@@ -42,13 +47,29 @@ typedef struct{
 
 void menu();
 //produits
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+void saisitproduit();
+=======
+>>>>>>> f56135b11b1caa95f49a5faafca0ce56c2312c3c
+>>>>>>> 8085a31d8f808adaf71d70fcb524ef10c8a6895b
 void infoProduit();
 void ajouterProduit();
 void modifierProduit();
 void supprimerProduit();
 void recherchecode();
 void verification_stock();
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+void activerCouleurConsole();
+ void afficherProduits();
+=======
+
+>>>>>>> f56135b11b1caa95f49a5faafca0ce56c2312c3c
+>>>>>>> 8085a31d8f808adaf71d70fcb524ef10c8a6895b
 //categories
 void infoCategorie();
 void ajouterCategorie();
@@ -65,4 +86,11 @@ void infoVente();
 void generfacture();
 void imprimfacture();
 void consultstock();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+void verification(FILE *tmp);
+=======
+>>>>>>> f56135b11b1caa95f49a5faafca0ce56c2312c3c
+>>>>>>> 8085a31d8f808adaf71d70fcb524ef10c8a6895b
 #endif
