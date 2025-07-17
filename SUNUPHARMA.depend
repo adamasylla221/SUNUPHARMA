@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1752324929 source:c:\users\mhd sn\documents\cours isi\langage c\projects\sunupharma-main\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pharmacie.h"
+
+1752764858 source:c:\users\mhd sn\documents\cours isi\langage c\projects\sunupharma-main\utilisateur.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pharmacie.h"
+
+1752766203 c:\users\mhd sn\documents\cours isi\langage c\projects\sunupharma-main\pharmacie.h
+
+1752764810 source:c:\users\mhd sn\documents\cours isi\langage c\projects\sunupharma-main\connexionutilisateur.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pharmacie.h"
+
+1752324678 source:c:\users\mhd sn\documents\cours isi\langage c\projects\sunupharma-main\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pharmacie.h"
+
+1752324678 source:c:\users\mhd sn\documents\cours isi\langage c\projects\sunupharma-main\bloc_debloc.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pharmacie.h"
+
