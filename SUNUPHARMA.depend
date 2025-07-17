@@ -1,4 +1,5 @@
 # depslib dependency file v1.0
+<<<<<<< HEAD
 1751999264 source:c:\users\hp\onedrive\documents\exo langage c\sunupharma\sunupharma\main.c
 	<stdio.h>
 	<stdlib.h>
@@ -15,4 +16,19 @@
 	"time.h"
 
 1751996494 c:\users\hp\onedrive\documents\exo langage c\sunupharma\sunupharma\pharmacie.h
+=======
+1752411690 source:c:\users\dell\desktop\l1 gl cours\langage c l1\sunupharma-main\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<windows.h>
+	"pharmacie.h"
+
+1752416229 source:c:\users\dell\desktop\l1 gl cours\langage c l1\sunupharma-main\pharmacie.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1752410592 c:\users\dell\desktop\l1 gl cours\langage c l1\sunupharma-main\pharmacie.h
+>>>>>>> 9ed36685a89b46fa6444100bafdb869af933b4b9
 

@@ -43,13 +43,22 @@ typedef struct{
 
 void menu();
 //produits
+<<<<<<< HEAD
+void saisitproduit();
+=======
+>>>>>>> f56135b11b1caa95f49a5faafca0ce56c2312c3c
 void infoProduit();
 void ajouterProduit();
 void modifierProduit();
 void supprimerProduit();
 void recherchecode();
 void verification_stock();
+<<<<<<< HEAD
+void activerCouleurConsole();
+ void afficherProduits();
+=======
 
+>>>>>>> f56135b11b1caa95f49a5faafca0ce56c2312c3c
 //categories
 void infoCategorie();
 void ajouterCategorie();
@@ -66,4 +75,8 @@ void infoVente();
 void generfacture();
 void imprimfacture();
 void consultstock();
+<<<<<<< HEAD
+void verification(FILE *tmp);
+=======
+>>>>>>> f56135b11b1caa95f49a5faafca0ce56c2312c3c
 #endif
