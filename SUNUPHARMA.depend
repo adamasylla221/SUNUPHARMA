@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1752411690 source:c:\users\dell\desktop\l1 gl cours\langage c l1\sunupharma-main\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<windows.h>
+	"pharmacie.h"
+
+1752416229 source:c:\users\dell\desktop\l1 gl cours\langage c l1\sunupharma-main\pharmacie.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1752410592 c:\users\dell\desktop\l1 gl cours\langage c l1\sunupharma-main\pharmacie.h
+
