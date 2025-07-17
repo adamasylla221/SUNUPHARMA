@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1752766313 source:c:\users\dell\downloads\sunupharma-main (1)\sunupharma-main\pharmacie.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pharmacie.h"
+
+1752766313 source:c:\users\dell\downloads\sunupharma-main (1)\sunupharma-main\main.c
+	<stdio.h>
+	"pharmacie.h"
+
+1751849598 c:\users\dell\downloads\sunupharma-main (1)\sunupharma-main\pharmacie.h
+
