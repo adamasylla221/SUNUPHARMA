@@ -1,51 +1,52 @@
 @echo off
-setlocal
+setlocal ENABLEDELAYEDEXPANSION
 
-:: === Configuration ===
-set "PROJECT_PATH=C:\Users\DELL\Desktop\L1 GL COURS\Langage C L1\sunupharma-main"
-set "GIT_URL=https://github.com/adamasylla221/SUNUPHARMA.git"
-set "BRANCH=main"
+:: ==== Présentation ====
+echo ============================================
+echo       🚀 PUSH TO GITHUB - by SUNUPHARMA
+echo ============================================
+echo.
 
-echo ==============================
-echo   🚀 SYNC SUNUPHARMA V1.0
-echo ==============================
+:: === Demander le chemin du dossier local ===
+set /p PROJECT_PATH=📁 Entrez le chemin complet du dossier projet (ex: C:\monprojet) : 
 
-:: === Aller dans le dossier du projet ===
-cd /d "%PROJECT_PATH%" || (
-    echo ❌ Erreur : Dossier introuvable : %PROJECT_PATH%
+:: Vérifie si le dossier existe
+if not exist "!PROJECT_PATH!" (
+    echo ❌ Dossier introuvable. Vérifie le chemin.
     pause
     exit /b
 )
 
-:: === Initialiser Git s'il n'existe pas déjà ===
+cd /d "!PROJECT_PATH!"
+
+:: === Demander l'URL GitHub ===
+set /p GIT_URL=🌐 Entrez l'URL du dépôt GitHub (ex: https://github.com/monnom/projet.git) : 
+
+:: === Initialiser Git si besoin ===
 if not exist ".git" (
-    echo 🔧 Initialisation du dépôt Git...
+    echo 🔧 Initialisation de Git...
     git init
 )
 
-:: === Ajouter ou mettre à jour le remote ===
-echo 🔗 Configuration du dépôt distant...
+:: === Ajouter ou remplacer le remote ===
+echo 🔗 Connexion au dépôt distant...
 git remote remove origin 2>nul
-git remote add origin %GIT_URL%
+git remote add origin "!GIT_URL!"
 
-:: === Récupérer le contenu distant ===
-echo 📥 Fusion avec le dépôt distant (si contenu existant)...
-git pull origin %BRANCH% --allow-unrelated-histories
+:: === Récupérer les données distantes s'il y en a ===
+echo 📥 Récupération du contenu distant...
+git pull origin main --allow-unrelated-histories
 
-:: === Ajouter les fichiers locaux ===
-echo 📂 Ajout des fichiers locaux...
+:: === Ajouter et commit local ===
+echo 📦 Ajout des fichiers locaux...
 git add .
+git commit -m "Mise à jour initiale du projet" || echo (aucun changement à valider)
 
-:: === Commit local ===
-echo 📝 Création du commit...
-git commit -m "Synchronisation locale avec le dépôt distant" || echo (aucune modification à valider)
-
-:: === Pousser sur GitHub ===
-echo 🚀 Envoi vers GitHub...
-git branch -M %BRANCH%
-git push -u origin %BRANCH%
+:: === Créer et pousser sur la branche main ===
+echo 🚀 Envoi du projet sur GitHub...
+git branch -M main
+git push -u origin main
 
 echo.
-echo ✅ Synchronisation terminée avec succès !
+echo ✅ Projet synchronisé avec GitHub !
 pause
-
