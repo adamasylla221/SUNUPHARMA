@@ -31,13 +31,44 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+<<<<<<< HEAD
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+=======
+<<<<<<< HEAD
+		<Unit filename="bloc_debloc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="connexionUtilisateur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pharmacie.h" />
+		<Unit filename="utilisateur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+=======
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+<<<<<<< HEAD
+=======
+>>>>>>> d294c8714c48641b2589898e3811368f21e8cb87
 		<Unit filename="pharmacie.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="pharmacie.h" />
+<<<<<<< HEAD
+=======
+>>>>>>> 8085a31d8f808adaf71d70fcb524ef10c8a6895b
+>>>>>>> f4499a739c63b652d77124ccfcbc509a52472b2e
+>>>>>>> d294c8714c48641b2589898e3811368f21e8cb87
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
