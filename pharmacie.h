@@ -33,7 +33,8 @@ typedef struct{
 
  typedef struct {
     char numero[15];
-    char loginPharmacien[6];
+    char date[10];
+    char loginPharmacien[10];
     Produit produits[100];
     int quantites[100];
     int nbProduits;

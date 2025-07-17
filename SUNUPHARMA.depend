@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1751999264 source:c:\users\hp\onedrive\documents\exo langage c\sunupharma\sunupharma\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/stat.h>
+	<sys/types.h>
+	"pharmacie.h"
+
+1751999726 source:c:\users\hp\onedrive\documents\exo langage c\sunupharma\sunupharma\pharmacie.c
+	<stdio.h>
+	<string.h>
+	"pharmacie.h"
+	<stdlib.h>
+	"time.h"
+
+1751996494 c:\users\hp\onedrive\documents\exo langage c\sunupharma\sunupharma\pharmacie.h
+
